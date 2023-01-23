@@ -15,7 +15,7 @@ abstract class AbstractGridController extends Controller
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function __construct(private Builder $builder)
+    public function __construct(protected Builder $builder)
     {
     }
 

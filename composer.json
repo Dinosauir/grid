@@ -1,0 +1,40 @@
+{
+    "name": "abacus/grid",
+    "description": "A Laravel inhouse package for grids",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abacus\\Grid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Vlasceanu",
+            "email": "sebastianvlasceanu@icloud.com"
+        }
+    ],
+    "version": "v1.0.0",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": ">=9.0",
+        "crosstimetech/laravel-data": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abacus\\Grid\\GridServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "git@github.com:crosstimetech/laravel-data.git"
+        },
+        {
+          "type": "vcs",
+          "url": "git@github.com:crosstimetech/laravel-str-macros.git"
+        }
+      ]
+}

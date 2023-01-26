@@ -18,7 +18,7 @@
     "require": {
         "php": ">=8.0",
         "laravel/framework": ">=8.0",
-        "crosstimetech/laravel-data": "^3.0"
+        "crosstimetech/laravel-data": ">=2.0"
     },
     "extra": {
         "laravel": {

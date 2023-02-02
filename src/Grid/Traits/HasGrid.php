@@ -18,13 +18,13 @@ trait HasGrid
         /** @var Model $model */
         $model = clone $this;
 
-        if (!(method_exists($this,'translation'))) {
+        if (!(method_exists($this, 'translation'))) {
             return $this;
         }
 
         if ($this->translation()) {
             foreach ($this->translation()->getAttributes() as $attribute => $value) {
-                if ($this->checkAttribute($attribute)) {
+                if ($this->checkGridAttribute($attribute)) {
                     continue;
                 }
 
@@ -35,7 +35,7 @@ trait HasGrid
         return $model;
     }
 
-    private function checkAttribute(string $attribute): bool
+    private function checkGridAttribute(string $attribute): bool
     {
         return in_array($attribute, ['id', 'locale', 'created_at', 'updated_at']) || str_ends_with($attribute, '_id');
     }

@@ -13,7 +13,7 @@
             "email": "sebastianvlasceanu@icloud.com"
         }
     ],
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "type": "library",
     "require": {
         "php": ">=8.0",

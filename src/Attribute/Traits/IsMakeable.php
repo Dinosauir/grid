@@ -6,7 +6,7 @@ namespace Abacus\Grid\Attribute\Traits;
 
 trait IsMakeable
 {
-    public static function make(string $key, string $label): self
+    public static function make(string $key, string $label): static
     {
         return new self($key, $label);
     }

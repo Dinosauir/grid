@@ -11,7 +11,7 @@ trait isLinkable
     protected string $actionAsLink;
     protected ?string $link = null;
 
-    final public function linkable(LinkActionEnum $action, string $url = null): self
+    final public function linkable(LinkActionEnum $action, string $url = null): static
     {
         $this->setAction($action->value);
 

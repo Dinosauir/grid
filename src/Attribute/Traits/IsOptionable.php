@@ -10,7 +10,7 @@ trait IsOptionable
 {
     protected array $options;
 
-    final public function options(array $options): self
+    final public function options(array $options): static
     {
         //@todo: Sebi - validare
         if (count($options) < 1) {

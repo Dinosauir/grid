@@ -8,7 +8,7 @@ trait IsTranslated
 {
     protected bool $is_translated = false;
 
-    final public function translated(): self
+    final public function translated(): static
     {
         $this->is_translated = true;
 

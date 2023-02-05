@@ -4,12 +4,12 @@ namespace Abacus\Grid\Grid\Controllers;
 
 use Abacus\Grid\Grid\Resources\GridResource;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Collection;
+use JsonSerializable;
 
 abstract class AbstractGridController extends Controller
 {
@@ -19,7 +19,11 @@ abstract class AbstractGridController extends Controller
     {
     }
 
-    public function edit(string $ids): Model|Collection
+    /**
+     * GET get-grid-models
+     * @urlParam ids integer required
+     */
+    public function edit(string $ids): JsonSerializable|Collection
     {
         $ids = explode(',', $ids);
 

@@ -8,7 +8,7 @@ trait IsRoutable
 {
     protected ?string $route = null;
 
-    final public function setRoute(string $route): self
+    final public function setRoute(string $route): static
     {
         $this->route = $route;
 

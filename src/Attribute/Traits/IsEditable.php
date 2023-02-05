@@ -8,7 +8,7 @@ trait IsEditable
 {
     protected bool $editable = false;
 
-    public function editable(): self
+    public function editable(): static
     {
         $this->editable = true;
 

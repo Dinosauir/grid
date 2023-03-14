@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Grid\Traits;
+namespace Xpv\Grid\Grid\Traits;
 
-use Abacus\Grid\Attribute\ActionsAttribute;
-use Abacus\Grid\Attribute\Attribute;
+use Xpv\Grid\Attribute\ActionsAttribute;
+use Xpv\Grid\Attribute\Attribute;
 use Illuminate\Support\Collection;
 
 trait HasColumns

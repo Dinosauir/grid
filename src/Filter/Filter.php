@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Filter;
+namespace Xpv\Grid\Filter;
 
 class Filter extends AbstractFilter
 {

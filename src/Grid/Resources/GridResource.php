@@ -1,6 +1,6 @@
 <?php
 
-namespace Abacus\Grid\Grid\Resources;
+namespace Xpv\Grid\Grid\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 

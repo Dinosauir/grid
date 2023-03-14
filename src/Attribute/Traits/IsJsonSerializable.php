@@ -1,6 +1,6 @@
 <?php
 
-namespace Abacus\Grid\Attribute\Traits;
+namespace Xpv\Grid\Attribute\Traits;
 
 trait IsJsonSerializable
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Grid\Traits;
+namespace Xpv\Grid\Grid\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use JsonSerializable;

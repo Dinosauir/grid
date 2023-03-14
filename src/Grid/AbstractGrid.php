@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Grid;
+namespace Xpv\Grid\Grid;
 
-use Abacus\Grid\Attribute\Attribute;
-use Abacus\Grid\Filter\AbstractFilter;
-use Abacus\Grid\Grid\Resources\GridResource;
-use Abacus\Grid\Grid\Traits\HasBuilder;
-use Abacus\Grid\Grid\Traits\HasPaginator;
+use Xpv\Grid\Attribute\Attribute;
+use Xpv\Grid\Filter\AbstractFilter;
+use Xpv\Grid\Grid\Resources\GridResource;
+use Xpv\Grid\Grid\Traits\HasBuilder;
+use Xpv\Grid\Grid\Traits\HasPaginator;
 use Illuminate\Database\Eloquent\Builder;
 
 abstract class AbstractGrid

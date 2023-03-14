@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Abacus\\Grid\\": "src/"
+            "Xpv\\Grid\\": "src/"
         }
     },
     "authors": [
@@ -17,24 +17,13 @@
     "type": "library",
     "require": {
         "php": ">=8.0",
-        "laravel/framework": ">=8.0",
-        "crosstimetech/laravel-data": ">=2.0"
+        "laravel/framework": ">=8.0"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Abacus\\Grid\\GridServiceProvider"
+                "Xpv\\Grid\\GridServiceProvider"
             ]
         }
-    },
-    "repositories": [
-        {
-          "type": "vcs",
-          "url": "git@github.com:crosstimetech/laravel-data.git"
-        },
-        {
-          "type": "vcs",
-          "url": "git@github.com:crosstimetech/laravel-str-macros.git"
-        }
-      ]
+    }
 }

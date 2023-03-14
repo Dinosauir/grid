@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Shared\Exceptions\Traits;
+namespace Xpv\Grid\Shared\Exceptions\Traits;
 
 use Countable;
 

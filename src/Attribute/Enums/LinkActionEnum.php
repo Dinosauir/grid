@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute\Enums;
+namespace Xpv\Grid\Attribute\Enums;
 
 enum LinkActionEnum: string
 {

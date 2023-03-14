@@ -1,8 +1,8 @@
 <?php
 
-namespace Abacus\Grid\Grid\Controllers;
+namespace Xpv\Grid\Grid\Controllers;
 
-use Abacus\Grid\Grid\Resources\GridResource;
+use Xpv\Grid\Grid\Resources\GridResource;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

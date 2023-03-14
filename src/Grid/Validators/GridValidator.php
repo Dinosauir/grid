@@ -1,9 +1,9 @@
 <?php
 
-namespace Abacus\Grid\Grid\Validators;
+namespace Xpv\Grid\Grid\Validators;
 
-use Abacus\Grid\Grid\Contracts\GridableInterface;
-use Abacus\Grid\Grid\Exceptions\GridException;
+use Xpv\Grid\Grid\Contracts\GridableInterface;
+use Xpv\Grid\Grid\Exceptions\GridException;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class GridValidator

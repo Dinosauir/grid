@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Grid;
+namespace Xpv\Grid\Grid;
 
-use Abacus\Grid\Attribute\Attribute;
-use Abacus\Grid\Filter\AbstractFilter;
-use Abacus\Grid\Grid\Exceptions\GridException;
-use Abacus\Grid\Grid\Resources\GridResource;
-use Abacus\Grid\Grid\Traits\HasColumns;
-use Abacus\Grid\Grid\Traits\HasFilters;
+use Xpv\Grid\Attribute\Attribute;
+use Xpv\Grid\Filter\AbstractFilter;
+use Xpv\Grid\Grid\Exceptions\GridException;
+use Xpv\Grid\Grid\Resources\GridResource;
+use Xpv\Grid\Grid\Traits\HasColumns;
+use Xpv\Grid\Grid\Traits\HasFilters;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class Grid extends AbstractGrid

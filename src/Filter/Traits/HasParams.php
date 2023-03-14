@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Filter\Traits;
+namespace Xpv\Grid\Filter\Traits;
 
-use Abacus\Grid\Filter\Properties\Parameter;
+use Xpv\Grid\Filter\Properties\Parameter;
 use Illuminate\Support\Collection;
 
 trait HasParams

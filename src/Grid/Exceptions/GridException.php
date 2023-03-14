@@ -1,8 +1,8 @@
 <?php
 
-namespace Abacus\Grid\Grid\Exceptions;
+namespace Xpv\Grid\Grid\Exceptions;
 
-use Abacus\Grid\Shared\Exceptions\DomainRuleException;
+use Xpv\Grid\Shared\Exceptions\DomainRuleException;
 use Illuminate\Database\Eloquent\Model;
 
 class GridException extends DomainRuleException

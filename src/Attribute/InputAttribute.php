@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute;
+namespace Xpv\Grid\Attribute;
 
-use Abacus\Grid\Attribute\Traits\IsMakeable;
+use Xpv\Grid\Attribute\Traits\IsMakeable;
 
 class InputAttribute extends Attribute
 {

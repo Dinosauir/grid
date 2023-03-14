@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute\Traits;
+namespace Xpv\Grid\Attribute\Traits;
 
 trait IsEditable
 {

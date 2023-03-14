@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute;
+namespace Xpv\Grid\Attribute;
 
 use Illuminate\Support\Collection;
 

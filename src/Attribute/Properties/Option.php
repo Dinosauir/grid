@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute\Properties;
+namespace Xpv\Grid\Attribute\Properties;
 
-use Abacus\Grid\Attribute\Traits\IsJsonSerializable;
+use Xpv\Grid\Attribute\Traits\IsJsonSerializable;
 use JsonSerializable;
 
 class Option implements JsonSerializable

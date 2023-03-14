@@ -1,6 +1,6 @@
 <?php
 
-namespace Abacus\Grid;
+namespace Xpv\Grid;
 
 use Illuminate\Support\ServiceProvider;
 

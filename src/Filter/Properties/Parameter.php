@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Filter\Properties;
+namespace Xpv\Grid\Filter\Properties;
 
 class Parameter
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Filter;
+namespace Xpv\Grid\Filter;
 
-use Abacus\Grid\Filter\Traits\HasAttributes;
-use Abacus\Grid\Filter\Traits\HasColSpan;
-use Abacus\Grid\Filter\Traits\HasKey;
-use Abacus\Grid\Filter\Traits\HasQuery;
+use Xpv\Grid\Filter\Traits\HasAttributes;
+use Xpv\Grid\Filter\Traits\HasColSpan;
+use Xpv\Grid\Filter\Traits\HasKey;
+use Xpv\Grid\Filter\Traits\HasQuery;
 use JsonSerializable;
 
 abstract class AbstractFilter implements JsonSerializable

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Shared\Exceptions;
+namespace Xpv\Grid\Shared\Exceptions;
 
-use Abacus\Grid\Shared\Exceptions\Traits\HasDomainMessage;
+use Xpv\Grid\Shared\Exceptions\Traits\HasDomainMessage;
 use Countable;
 use Exception;
 use Throwable;
 
-class DomainRuleException extends Exception implements \Abacus\Grid\Shared\Contracts\DomainRuleException
+class DomainRuleException extends Exception implements \Xpv\Grid\Shared\Contracts\DomainRuleException
 {
     use HasDomainMessage;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute\Traits;
+namespace Xpv\Grid\Attribute\Traits;
 
-use Abacus\Grid\Attribute\Enums\LinkActionEnum;
+use Xpv\Grid\Attribute\Enums\LinkActionEnum;
 
 trait isLinkable
 {

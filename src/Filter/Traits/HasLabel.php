@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Filter\Traits;
+namespace Xpv\Grid\Filter\Traits;
 
 trait HasLabel
 {

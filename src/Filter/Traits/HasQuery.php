@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Filter\Traits;
+namespace Xpv\Grid\Filter\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 

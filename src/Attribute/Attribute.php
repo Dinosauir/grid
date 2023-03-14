@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Attribute;
+namespace Xpv\Grid\Attribute;
 
-use Abacus\Grid\Attribute\Traits\IsEditable;
-use Abacus\Grid\Attribute\Traits\IsJsonSerializable;
-use Abacus\Grid\Attribute\Traits\isLinkable;
-use Abacus\Grid\Attribute\Traits\IsTranslated;
+use Xpv\Grid\Attribute\Traits\IsEditable;
+use Xpv\Grid\Attribute\Traits\IsJsonSerializable;
+use Xpv\Grid\Attribute\Traits\isLinkable;
+use Xpv\Grid\Attribute\Traits\IsTranslated;
 use JsonSerializable;
 
 abstract class Attribute implements JsonSerializable

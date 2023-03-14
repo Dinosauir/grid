@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Grid\Contracts;
+namespace Xpv\Grid\Grid\Contracts;
 
 use JsonSerializable;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Grid\Traits;
+namespace Xpv\Grid\Grid\Traits;
 
-use Abacus\Grid\Grid\Exceptions\GridException;
-use Abacus\Grid\Grid\Validators\GridValidator;
+use Xpv\Grid\Grid\Exceptions\GridException;
+use Xpv\Grid\Grid\Validators\GridValidator;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 trait HasPaginator

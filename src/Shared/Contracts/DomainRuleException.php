@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abacus\Grid\Shared\Contracts;
+namespace Xpv\Grid\Shared\Contracts;
 
 use Throwable;
 
